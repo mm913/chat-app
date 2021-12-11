@@ -1,0 +1,148 @@
+.wrapper{
+  display: flex;
+}
+
+.side_bar{
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+
+.top_side_bar{
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.chat_btn{
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+  border: 1px solid lightblue;
+  padding: 14px;
+}
+
+.bottom_side_bar{
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room_name{
+  color: white;
+  display: block;
+  padding: 20px 20px 40px 20px;
+  text-decoration: none;
+}
+
+.chat{
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.top_chat{
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat_title{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.chat_finish{
+  color: darkred;
+  border: solid 1px darkred;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.center_chat{
+  height: calc(100vh - 190px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0 40px;
+  overflow: scroll;
+}
+
+.one_chat{
+  margin-bottom: 40px;
+}
+
+.header_chat{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.user_name_in_chat{
+  font-size: 16px;
+  color: #434A54;
+  padding-right: 10px;
+}
+
+.date_of_chat{
+  font-size: 12px;
+  color: #999;
+}
+
+.message_in_chat{
+  font-size: 14px;
+  color: #434A54;
+}
+
+.bottom_chat{
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.message_form{
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.text_form{
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.send{
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  background-color: #38AEF0;
+  border: none;
+  padding: 0 20px;
+  margin-left: 15px;
+}
+
+.form_image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
