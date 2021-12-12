@@ -31,14 +31,14 @@
   padding: 14px;
 }
 
-.bottom_side_bar{
+.bottom_side_bar {
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
   overflow: scroll;
 }
 
-.room_name{
+.room_name a{
   color: white;
   display: block;
   padding: 20px 20px 40px 20px;
