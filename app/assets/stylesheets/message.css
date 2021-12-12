@@ -8,22 +8,22 @@
   background-color: #253141;
 }
 
-.top_side_bar{
+.side_bar_header{
+  display:flex; 
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   padding: 0 20px;
   background-color: #253141;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.user_name{
+.side_bar_name a{
   font-size: 16px;
   color: #FAFAFA;
   text-decoration: none;
 }
 
-.chat_btn{
+.chat_btn a{
   font-size: 10px;
   color: deepskyblue;
   text-decoration: none;
